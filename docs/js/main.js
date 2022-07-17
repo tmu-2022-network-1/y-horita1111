@@ -139,10 +139,16 @@ scene2.fromTo(
   '<1',
 )
 
+scene2.to(
+  '#moon-circle',
+  { keyframes: [{ duration: 8, top: -300 }], ease: 'power1.out' },
+  '<5',
+)
+
 scene2.fromTo(
   '#under-the-sea',
   {
-    top: '100vh',
+    top: '200vh',
   },
   {
     keyframes: [
@@ -152,9 +158,9 @@ scene2.fromTo(
         background: '#14183D',
       },
     ],
-    ease: 'power3.out',
+    ease: 'power1.out',
   },
-  '<5',
+  '<0',
 )
 
 const scene3 = gsap.timeline({
@@ -175,11 +181,15 @@ scene3.fromTo(
   {
     keyframes: [
       {
-        duration: 7,
+        duration: 3,
+        opacity: 0,
+      },
+      {
+        duration: 5,
         opacity: 1,
       },
       {
-        duration: 7,
+        duration: 6,
         opacity: 0,
       },
     ],
@@ -229,7 +239,7 @@ scene4.fromTo(
   {
     keyframes: [
       {
-        duration: 16,
+        duration: 14,
         right: '100vw',
         top: 600,
       },
@@ -306,7 +316,7 @@ scene5.fromTo(
       },
     ],
   },
-  '<1',
+  '<2',
 )
 
 const scene6 = gsap.timeline({
@@ -353,7 +363,7 @@ scene6.fromTo(
       },
     ],
   },
-  '<0',
+  '<2',
 )
 
 const scene7 = gsap.timeline({
@@ -374,11 +384,75 @@ scene7.fromTo(
   },
   {
     keyframes: [
-      { duration: 4, left: '-10vw', opacity: 1 },
-      { duration: 6, opacity: 1 },
-      { duration: 4, opacity: 0 },
+      { duration: 3, left: '-10vw', opacity: 1 },
+      { duration: 5, opacity: 1 },
+      { duration: 3, opacity: 0 },
     ],
   },
+)
+
+scene7.fromTo(
+  '#mogusa2',
+  {
+    opacity: 0,
+    right: '-150vw',
+  },
+  {
+    keyframes: [
+      { duration: 3, right: '-110vw', opacity: 1 },
+      { duration: 5, opacity: 1 },
+      { duration: 3, opacity: 0 },
+    ],
+  },
+  '<.5',
+)
+
+scene7.fromTo(
+  '#mogusa3',
+  {
+    opacity: 0,
+    left: '-60vw',
+  },
+  {
+    keyframes: [
+      { duration: 3, left: '-7vw', opacity: 1 },
+      { duration: 5, opacity: 1 },
+      { duration: 3, opacity: 0 },
+    ],
+  },
+  '<.5',
+)
+
+scene7.fromTo(
+  '#mogusa4',
+  {
+    opacity: 0,
+    right: '-170vw',
+  },
+  {
+    keyframes: [
+      { duration: 3, right: '-109vw', opacity: 1 },
+      { duration: 5, opacity: 1 },
+      { duration: 3, opacity: 0 },
+    ],
+  },
+  '<.5',
+)
+
+scene7.fromTo(
+  '#mogusa5',
+  {
+    opacity: 0,
+    left: '-50vw',
+  },
+  {
+    keyframes: [
+      { duration: 3, left: '-4vw', opacity: 1 },
+      { duration: 5, opacity: 1 },
+      { duration: 3, opacity: 0 },
+    ],
+  },
+  '<.5',
 )
 
 scene7.fromTo(
@@ -402,71 +476,7 @@ scene7.fromTo(
       },
     ],
   },
-  '<.5',
-)
-
-scene7.fromTo(
-  '#mogusa2',
-  {
-    opacity: 0,
-    right: '-150vw',
-  },
-  {
-    keyframes: [
-      { duration: 4, right: '-110vw', opacity: 1 },
-      { duration: 6, opacity: 1 },
-      { duration: 4, opacity: 0 },
-    ],
-  },
   '<0',
-)
-
-scene7.fromTo(
-  '#mogusa3',
-  {
-    opacity: 0,
-    left: '-60vw',
-  },
-  {
-    keyframes: [
-      { duration: 4, left: '-7vw', opacity: 1 },
-      { duration: 6, opacity: 1 },
-      { duration: 4, opacity: 0 },
-    ],
-  },
-  '<.5',
-)
-
-scene7.fromTo(
-  '#mogusa4',
-  {
-    opacity: 0,
-    right: '-170vw',
-  },
-  {
-    keyframes: [
-      { duration: 4, right: '-109vw', opacity: 1 },
-      { duration: 6, opacity: 1 },
-      { duration: 4, opacity: 0 },
-    ],
-  },
-  '<.5',
-)
-
-scene7.fromTo(
-  '#mogusa5',
-  {
-    opacity: 0,
-    left: '-50vw',
-  },
-  {
-    keyframes: [
-      { duration: 4, left: '-4vw', opacity: 1 },
-      { duration: 6, opacity: 1 },
-      { duration: 4, opacity: 0 },
-    ],
-  },
-  '<.5',
 )
 
 scene7.fromTo(
@@ -477,9 +487,9 @@ scene7.fromTo(
   },
   {
     keyframes: [
-      { duration: 4, right: '-102vw', opacity: 1 },
-      { duration: 6, opacity: 1 },
-      { duration: 4, opacity: 0 },
+      { duration: 3, right: '-102vw', opacity: 1 },
+      { duration: 5, opacity: 1 },
+      { duration: 3, opacity: 0 },
     ],
   },
   '<.5',
@@ -493,9 +503,9 @@ scene7.fromTo(
   },
   {
     keyframes: [
-      { duration: 4, left: '-8vw', opacity: 1 },
-      { duration: 6, opacity: 1 },
-      { duration: 4, opacity: 0 },
+      { duration: 3, left: '-8vw', opacity: 1 },
+      { duration: 5, opacity: 1 },
+      { duration: 3, opacity: 0 },
     ],
   },
   '<.5',
@@ -509,9 +519,9 @@ scene7.fromTo(
   },
   {
     keyframes: [
-      { duration: 4, right: '-120vw', opacity: 1 },
-      { duration: 6, opacity: 1 },
-      { duration: 4, opacity: 0 },
+      { duration: 3, right: '-120vw', opacity: 1 },
+      { duration: 5, opacity: 1 },
+      { duration: 3, opacity: 0 },
     ],
   },
   '<.5',
@@ -525,9 +535,9 @@ scene7.fromTo(
   },
   {
     keyframes: [
-      { duration: 4, left: '-6vw', opacity: 1 },
-      { duration: 6, opacity: 1 },
-      { duration: 4, opacity: 0 },
+      { duration: 3, left: '-6vw', opacity: 1 },
+      { duration: 5, opacity: 1 },
+      { duration: 3, opacity: 0 },
     ],
   },
   '<.5',
@@ -541,9 +551,9 @@ scene7.fromTo(
   },
   {
     keyframes: [
-      { duration: 4, right: '-104vw', opacity: 1 },
-      { duration: 6, opacity: 1 },
-      { duration: 4, opacity: 0 },
+      { duration: 3, right: '-104vw', opacity: 1 },
+      { duration: 5, opacity: 1 },
+      { duration: 3, opacity: 0 },
     ],
   },
   '<.5',
@@ -557,9 +567,9 @@ scene7.fromTo(
   },
   {
     keyframes: [
-      { duration: 4, left: '-4vw', opacity: 1 },
-      { duration: 6, opacity: 1 },
-      { duration: 4, opacity: 0 },
+      { duration: 3, left: '-4vw', opacity: 1 },
+      { duration: 5, opacity: 1 },
+      { duration: 3, opacity: 0 },
     ],
   },
   '<.5',
@@ -573,10 +583,153 @@ scene7.fromTo(
   },
   {
     keyframes: [
-      { duration: 4, right: '-110vw', opacity: 1 },
-      { duration: 6, opacity: 1 },
-      { duration: 4, opacity: 0 },
+      { duration: 3, right: '-110vw', opacity: 1 },
+      { duration: 5, opacity: 1 },
+      { duration: 3, opacity: 0 },
     ],
   },
   '<.5',
+)
+
+const scene8 = gsap.timeline({
+  scrollTrigger: {
+    trigger: '#gsap-trigger-8',
+    start: 'top center',
+    end: 'bottom center',
+    markers: true,
+    scrub: true,
+  },
+})
+
+scene8.fromTo(
+  '#under-the-sea',
+  {
+    width: '100vw',
+    height: '100vh',
+    'background-image':
+      'radial-gradient(circle at center, #14183D 0%, #14183D 100%)',
+  },
+  {
+    keyframes: [
+      {
+        duration: 4,
+        opacity: 0,
+      },
+    ],
+  },
+)
+
+scene8.fromTo(
+  '#text-box6',
+  {
+    opacity: 0,
+  },
+  {
+    keyframes: [
+      {
+        duration: 2,
+        opacity: 1,
+      },
+      {
+        duration: 10,
+        opacity: 1,
+      },
+      {
+        duration: 2,
+        opacity: 0,
+      },
+    ],
+  },
+  '<2',
+)
+
+scene8.fromTo(
+  '#hari-circle-bg',
+  {
+    opacity: 0,
+  },
+  {
+    keyframes: [
+      {
+        duration: 5,
+        width: 200,
+        height: 200,
+        opacity: 1,
+      },
+      {
+        duration: 2,
+        top: '50%',
+      },
+      { duration: 4, top: -200 },
+    ],
+  },
+  '<2',
+)
+
+scene8.fromTo(
+  '#hari-circle-small1',
+  {
+    bottom: -300,
+  },
+  {
+    keyframes: [
+      {
+        duration: 4,
+        bottom: '100vh',
+      },
+    ],
+    ease: 'power2.in',
+  },
+  '<3',
+)
+
+scene8.fromTo(
+  '#hari-circle-small4',
+  {
+    bottom: -300,
+  },
+  {
+    keyframes: [
+      {
+        duration: 4,
+        bottom: '100vh',
+      },
+    ],
+    ease: 'power2.in',
+  },
+  '<1',
+)
+
+scene8.fromTo(
+  '#hari-circle-small2',
+  {
+    bottom: -300,
+  },
+  {
+    keyframes: [
+      {
+        duration: 4,
+        bottom: '100vh',
+      },
+    ],
+    ease: 'power2.in',
+  },
+  '<1',
+)
+
+scene8.fromTo(
+  '#hari-circle-small3',
+  {
+    bottom: -300,
+  },
+  {
+    keyframes: [
+      {
+        duration: 4,
+        bottom: '100vh',
+      },
+    ],
+    ease: 'power2.in',
+  },
+  '<1',
 )

@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>月光と海月</title>
-    <link rel="stylesheet" href="./style.css" />
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"
       integrity="sha512-VEBjfxWUOyzl0bAwh4gdLEaQyDYPvLrZql3pw1ifgb6fhEvZl9iDDehwHZ+dsMzA0Jfww8Xt7COSZuJ/slxc4Q=="
@@ -19,36 +18,16 @@
       referrerpolicy="no-referrer"
     ></script>
     <script>
-      ;(function (d) {
+      (function(d) {
         var config = {
-            kitId: 'ybf0jdj',
-            scriptTimeout: 3000,
-            async: true,
-          },
-          h = d.documentElement,
-          t = setTimeout(function () {
-            h.className =
-              h.className.replace(/\bwf-loading\b/g, '') + ' wf-inactive'
-          }, config.scriptTimeout),
-          tk = d.createElement('script'),
-          f = false,
-          s = d.getElementsByTagName('script')[0],
-          a
-        h.className += ' wf-loading'
-        tk.src = 'https://use.typekit.net/' + config.kitId + '.js'
-        tk.async = true
-        tk.onload = tk.onreadystatechange = function () {
-          a = this.readyState
-          if (f || (a && a != 'complete' && a != 'loaded')) return
-          f = true
-          clearTimeout(t)
-          try {
-            Typekit.load(config)
-          } catch (e) {}
-        }
-        s.parentNode.insertBefore(tk, s)
-      })(document)
+          kitId: 'ybf0jdj',
+          scriptTimeout: 3000,
+          async: true
+        },
+        h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+      })(document);
     </script>
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <div id="moon-box">
@@ -184,35 +163,38 @@
       </svg>
     </div>
 
-    <div id="under-the-sea"><div class="overlay" id="moonlight-overlay"></div></div>
+    <div id="under-the-sea">
+      <div class="overlay" id="moonlight-overlay"></div>
+    </div>
 
     <div class="text-box" id="text-box1"><p>月光の中を泳ぎいで</p></div>
 
     <div class="text-box" id="text-box2"><p>むらがるくらげを捉へんとす</p></div>
-    <img src="./images/jellyfish_b.png" class="jellyfish" id="jellyfish-b">
-    <img src="./images/jellyfish_r.png" class="jellyfish" id="jellyfish-r">
-    <img src="./images/jellyfish_y.png" class="jellyfish" id="jellyfish-y">
-
+    <img src="./images/jellyfish_b.png" class="jellyfish" id="jellyfish-b" />
+    <img src="./images/jellyfish_r.png" class="jellyfish" id="jellyfish-r" />
+    <img src="./images/jellyfish_y.png" class="jellyfish" id="jellyfish-y" />
 
     <div class="overlay" id="light-overlay"></div>
-    <div class="text-box" id="text-box3"><p>手はからだをはなれてのびゆき</p></div>
+    <div class="text-box" id="text-box3">
+      <p>手はからだをはなれてのびゆき</p>
+    </div>
 
     <div class="overlay" id="dark-overlay"></div>
     <div class="text-box" id="text-box4"><p>しきりに遠きにさしのべらる</p></div>
 
     <div id="mogusa-box">
-      <img src="./images/mogusa.png" class="mogusa" id="mogusa1">
-      <img src="./images/mogusa.png" class="mogusa" id="mogusa2">
-      <img src="./images/mogusa.png" class="mogusa" id="mogusa3">
-      <img src="./images/mogusa.png" class="mogusa" id="mogusa4">
-      <img src="./images/mogusa.png" class="mogusa" id="mogusa5">
-      <img src="./images/mogusa.png" class="mogusa" id="mogusa6">
-      <img src="./images/mogusa.png" class="mogusa" id="mogusa7">
-      <img src="./images/mogusa.png" class="mogusa" id="mogusa8">
-      <img src="./images/mogusa.png" class="mogusa" id="mogusa9">
-      <img src="./images/mogusa.png" class="mogusa" id="mogusa10">
-      <img src="./images/mogusa.png" class="mogusa" id="mogusa11">
-      <img src="./images/mogusa.png" class="mogusa" id="mogusa12">
+      <img src="./images/mogusa.png" class="mogusa" id="mogusa1" />
+      <img src="./images/mogusa.png" class="mogusa" id="mogusa2" />
+      <img src="./images/mogusa.png" class="mogusa" id="mogusa3" />
+      <img src="./images/mogusa.png" class="mogusa" id="mogusa4" />
+      <img src="./images/mogusa.png" class="mogusa" id="mogusa5" />
+      <img src="./images/mogusa.png" class="mogusa" id="mogusa6" />
+      <img src="./images/mogusa.png" class="mogusa" id="mogusa7" />
+      <img src="./images/mogusa.png" class="mogusa" id="mogusa8" />
+      <img src="./images/mogusa.png" class="mogusa" id="mogusa9" />
+      <img src="./images/mogusa.png" class="mogusa" id="mogusa10" />
+      <img src="./images/mogusa.png" class="mogusa" id="mogusa11" />
+      <img src="./images/mogusa.png" class="mogusa" id="mogusa12" />
     </div>
 
     <div class="text-box" id="text-box5"><p>もぐさにまつはり</p></div>
@@ -234,8 +216,17 @@
       <div class="gsap-trigger text-trigger" id="gsap-trigger-14"></div>
       <div class="gsap-trigger text-trigger" id="gsap-trigger-15"></div>
       <div class="gsap-trigger text-trigger" id="gsap-trigger-16"></div>
-    
     </div>
+
+    <div class="hari-circle" id="hari-circle-bg"></div>
+    <div class="hari-circle hari-circle-small" id="hari-circle-small1"></div>
+    <div class="hari-circle hari-circle-small" id="hari-circle-small2"></div>
+    <div class="hari-circle hari-circle-small" id="hari-circle-small3"></div>
+    <div class="hari-circle hari-circle-small" id="hari-circle-small4"></div>
+    <div class="text-box" id="text-box6">
+      <p>わが身は玻璃のたぐひとなりはてしか</p>
+    </div>
+    
 
     <script
       src="https://code.jquery.com/jquery-3.6.0.min.js"

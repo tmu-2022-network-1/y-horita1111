@@ -46,7 +46,7 @@ const scene1 = gsap.timeline({
     trigger: '#gsap-trigger-1',
     start: 'top center',
     end: 'bottom center',
-    markers: true,
+    markers: false,
     scrub: true,
   },
 })
@@ -64,14 +64,14 @@ scene1.to('#moon-circle', {
 
 scene1.to('#title-box', {
   opacity: 0,
-})
+},'<2')
 
 const scene2 = gsap.timeline({
   scrollTrigger: {
     trigger: '#gsap-trigger-2',
     start: 'top center',
     end: 'bottom center',
-    markers: true,
+    markers: false,
     scrub: true,
   },
 })
@@ -168,7 +168,7 @@ const scene3 = gsap.timeline({
     trigger: '#gsap-trigger-3',
     start: 'top center',
     end: 'bottom center',
-    markers: true,
+    markers: false,
     scrub: true,
   },
 })
@@ -225,7 +225,7 @@ const scene4 = gsap.timeline({
     trigger: '#gsap-trigger-4',
     start: 'top center',
     end: 'bottom center',
-    markers: true,
+    markers: false,
     scrub: true,
   },
 })
@@ -277,7 +277,7 @@ const scene5 = gsap.timeline({
     trigger: '#gsap-trigger-5',
     start: 'top center',
     end: 'bottom center',
-    markers: true,
+    markers: false,
     scrub: true,
   },
 })
@@ -324,7 +324,7 @@ const scene6 = gsap.timeline({
     trigger: '#gsap-trigger-6',
     start: 'top center',
     end: 'bottom center',
-    markers: true,
+    markers: false,
     scrub: true,
   },
 })
@@ -371,7 +371,7 @@ const scene7 = gsap.timeline({
     trigger: '#gsap-trigger-7',
     start: 'top center',
     end: 'bottom center',
-    markers: true,
+    markers: false,
     scrub: true,
   },
 })
@@ -596,7 +596,7 @@ const scene8 = gsap.timeline({
     trigger: '#gsap-trigger-8',
     start: 'top center',
     end: 'bottom center',
-    markers: true,
+    markers: false,
     scrub: true,
   },
 })

@@ -62,9 +62,13 @@ scene1.to('#moon-circle', {
   ],
 })
 
-scene1.to('#title-box', {
-  opacity: 0,
-},'<2')
+scene1.to(
+  '#title-box',
+  {
+    opacity: 0,
+  },
+  '<2',
+)
 
 const scene2 = gsap.timeline({
   scrollTrigger: {
@@ -732,4 +736,505 @@ scene8.fromTo(
     ease: 'power2.in',
   },
   '<1',
+)
+
+const scene9 = gsap.timeline({
+  scrollTrigger: {
+    trigger: '#gsap-trigger-9',
+    start: 'top center',
+    end: 'bottom center',
+    markers: false,
+    scrub: true,
+  },
+})
+
+scene9.fromTo(
+  'body',
+  {
+    width: '100vw',
+    height: '100vh',
+    'background-color': '#111222',
+  },
+  {
+    keyframes: [
+      {
+        duration: 2,
+        'background-color': '#B7C4D2',
+      },
+    ],
+  },
+)
+
+scene9.fromTo(
+  '#text-box7',
+  {
+    opacity: 0,
+  },
+  {
+    keyframes: [
+      {
+        duration: 2,
+        opacity: 1,
+      },
+      {
+        duration: 10,
+        opacity: 1,
+      },
+      {
+        duration: 2,
+        opacity: 0,
+      },
+    ],
+  },
+  '<2',
+)
+
+const lines = document.getElementsByClassName('white-line')
+for (let i = 0; i < lines.length; i++) {
+  lines[i].style.top = `${getRandomArbitrary(0, 100)}%`
+  console.log(lines[i])
+}
+
+function getRandomArbitrary(min, max) {
+  return Math.random() * (max - min) + min
+}
+
+scene9.fromTo(
+  '#white-line1',
+  {
+    right: -2002,
+  },
+  {
+    keyframes: [
+      {
+        duration: 4,
+        right: 2000,
+      },
+    ],
+    ease: 'power2.in',
+  },
+  '<.5',
+)
+
+scene9.fromTo(
+  '#white-line2',
+  {
+    right: -2002,
+  },
+  {
+    keyframes: [
+      {
+        duration: 4,
+        right: 2000,
+      },
+    ],
+    ease: 'power2.in',
+  },
+  '<.5',
+)
+
+scene9.fromTo(
+  '#white-line3',
+  {
+    right: -2002,
+  },
+  {
+    keyframes: [
+      {
+        duration: 4,
+        right: 2000,
+      },
+    ],
+    ease: 'power2.in',
+  },
+  '<.5',
+)
+
+scene9.fromTo(
+  '#white-line4',
+  {
+    right: -2002,
+  },
+  {
+    keyframes: [
+      {
+        duration: 4,
+        right: 2000,
+      },
+    ],
+    ease: 'power2.in',
+  },
+  '<.5',
+)
+
+scene9.fromTo(
+  '#white-line5',
+  {
+    right: -2002,
+  },
+  {
+    keyframes: [
+      {
+        duration: 4,
+        right: 2000,
+      },
+    ],
+    ease: 'power2.in',
+  },
+  '<.5',
+)
+
+scene9.fromTo(
+  '#white-line6',
+  {
+    right: -2002,
+  },
+  {
+    keyframes: [
+      {
+        duration: 4,
+        right: 2000,
+      },
+    ],
+    ease: 'power2.in',
+  },
+  '<.5',
+)
+
+scene9.fromTo(
+  '#white-line7',
+  {
+    right: -2002,
+  },
+  {
+    keyframes: [
+      {
+        duration: 4,
+        right: 2000,
+      },
+    ],
+    ease: 'power2.in',
+  },
+  '<.5',
+)
+
+scene9.fromTo(
+  '#white-line8',
+  {
+    right: -2002,
+  },
+  {
+    keyframes: [
+      {
+        duration: 4,
+        right: 2000,
+      },
+    ],
+    ease: 'power2.in',
+  },
+  '<.5',
+)
+
+scene9.fromTo(
+  '#white-line9',
+  {
+    right: -2002,
+  },
+  {
+    keyframes: [
+      {
+        duration: 4,
+        right: 2000,
+      },
+    ],
+    ease: 'power2.in',
+  },
+  '<.5',
+)
+
+scene9.fromTo(
+  '#white-line10',
+  {
+    right: -2002,
+  },
+  {
+    keyframes: [
+      {
+        duration: 4,
+        right: 2000,
+      },
+    ],
+    ease: 'power2.in',
+  },
+  '<.5',
+)
+
+scene9.fromTo(
+  '#white-line11',
+  {
+    right: -2002,
+  },
+  {
+    keyframes: [
+      {
+        duration: 4,
+        right: 2000,
+      },
+    ],
+    ease: 'power2.in',
+  },
+  '<.5',
+)
+
+scene9.fromTo(
+  '#white-line12',
+  {
+    right: -2002,
+  },
+  {
+    keyframes: [
+      {
+        duration: 4,
+        right: 2000,
+      },
+    ],
+    ease: 'power2.in',
+  },
+  '<.5',
+)
+
+scene9.fromTo(
+  '#white-line13',
+  {
+    right: -2002,
+  },
+  {
+    keyframes: [
+      {
+        duration: 4,
+        right: 2000,
+      },
+    ],
+    ease: 'power2.in',
+  },
+  '<.5',
+)
+
+scene9.fromTo(
+  '#white-line14',
+  {
+    right: -2002,
+  },
+  {
+    keyframes: [
+      {
+        duration: 4,
+        right: 2000,
+      },
+    ],
+    ease: 'power2.in',
+  },
+  '<.5',
+)
+
+scene9.fromTo(
+  '#white-line15',
+  {
+    right: -2002,
+  },
+  {
+    keyframes: [
+      {
+        duration: 4,
+        right: 2000,
+      },
+    ],
+    ease: 'power2.in',
+  },
+  '<.5',
+)
+
+scene9.fromTo(
+  '#white-line16',
+  {
+    right: -2002,
+  },
+  {
+    keyframes: [
+      {
+        duration: 4,
+        right: 2000,
+      },
+    ],
+    ease: 'power2.in',
+  },
+  '<.5',
+)
+
+scene9.fromTo(
+  '#white-line17',
+  {
+    right: -2002,
+  },
+  {
+    keyframes: [
+      {
+        duration: 4,
+        right: 2000,
+      },
+    ],
+    ease: 'power2.in',
+  },
+  '<.5',
+)
+
+scene9.fromTo(
+  '#white-line18',
+  {
+    right: -2002,
+  },
+  {
+    keyframes: [
+      {
+        duration: 4,
+        right: 2000,
+      },
+    ],
+    ease: 'power2.in',
+  },
+  '<.5',
+)
+
+scene9.fromTo(
+  '#white-line19',
+  {
+    right: -2002,
+  },
+  {
+    keyframes: [
+      {
+        duration: 4,
+        right: 2000,
+      },
+    ],
+    ease: 'power2.in',
+  },
+  '<.5',
+)
+
+scene9.fromTo(
+  '#white-line20',
+  {
+    right: -2002,
+  },
+  {
+    keyframes: [
+      {
+        duration: 4,
+        right: 2000,
+      },
+    ],
+    ease: 'power2.in',
+  },
+  '<.5',
+)
+
+const scene10 = gsap.timeline({
+  scrollTrigger: {
+    trigger: '#gsap-trigger-10',
+    start: 'top center',
+    end: 'bottom center',
+    markers: false,
+    scrub: true,
+  },
+})
+
+scene10.fromTo(
+  '#gradient-overlay',
+  {
+    opacity: 0,
+  },
+  {
+    keyframes: [
+      {
+        duration: 2,
+        opacity: 1,
+      },
+    ],
+  },
+)
+
+scene10.fromTo(
+  '#text-box8',
+  {
+    opacity: 0,
+  },
+  {
+    keyframes: [
+      {
+        duration: 2,
+        opacity: 1,
+      },
+      {
+        duration: 10,
+        opacity: 1,
+      },
+      {
+        duration: 2,
+        opacity: 0,
+      },
+    ],
+  },
+  '<2',
+)
+
+const scene11 = gsap.timeline({
+  scrollTrigger: {
+    trigger: '#gsap-trigger-11',
+    start: 'top center',
+    end: 'bottom center',
+    markers: false,
+    scrub: true,
+  },
+})
+
+scene11.fromTo(
+  '#gradient-overlay',
+  {
+    'background-image':
+      'radial-gradient(50% 50% at 50% 50%, #81E8FF 0%, #B7B7B7 100%)',
+  },
+  {
+    keyframes: [
+      {
+        duration: 2,
+        'background-image':
+          'radial-gradient(50% 50% at 50% 50%, #18294A 0%, #88E2F7 100%)',
+      },
+    ],
+  },
+)
+
+scene11.fromTo(
+  '#text-box9',
+  {
+    opacity: 0,
+  },
+  {
+    keyframes: [
+      {
+        duration: 2,
+        opacity: 1,
+      },
+      {
+        duration: 10,
+        opacity: 1,
+      },
+      {
+        duration: 2,
+        opacity: 0,
+      },
+    ],
+  },
+  '<2',
 )

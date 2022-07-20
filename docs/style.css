@@ -205,6 +205,17 @@ body {
     left: 90%;
 }
 
+.white-line{
+    width: 2000px;
+    height: 0px;
+    border-top: 1px solid #ffffff;
+    position: fixed;
+}
+
+#gradient-overlay{
+    background-image: radial-gradient(50% 50% at 50% 50%, #81E8FF 0%, #B7B7B7 100%);
+}
+
 .gsap-trigger {
     width: 100vw;
     background-color: none;

@@ -205,15 +205,55 @@ body {
     left: 90%;
 }
 
-.white-line{
+.white-line {
     width: 2000px;
     height: 0px;
     border-top: 1px solid #ffffff;
     position: fixed;
 }
 
-#gradient-overlay{
+#gradient-overlay {
     background-image: radial-gradient(50% 50% at 50% 50%, #81E8FF 0%, #B7B7B7 100%);
+}
+
+#swarmy {
+    background: none;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.swarmy-object {
+    width: 200px;
+    height: 200px;
+    border-radius: 999px 0 0 0;
+    background-color: #1E2247;
+}
+
+#endroll{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#endroll .title-box{
+    margin: 0 auto;
+    width: 500px;
+    margin-bottom: 50px;
+}
+
+#endroll .title{
+    width: 100%;
+}
+
+#endroll p{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 40px;
+    color: white;
 }
 
 .gsap-trigger {

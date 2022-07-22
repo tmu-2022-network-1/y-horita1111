@@ -253,6 +253,44 @@ scene4.fromTo(
 )
 
 scene4.fromTo(
+  '#jellyfish-b',
+  {
+    right: -200,
+    bottom: 200,
+  },
+  {
+    keyframes: [
+      {
+        duration: 14,
+        right: '100vw',
+        bottom: 600,
+      },
+    ],
+    ease: 'power1.out',
+  },
+  '<0.5',
+)
+
+scene4.fromTo(
+  '#jellyfish-y',
+  {
+    left: -200,
+    top: 200,
+  },
+  {
+    keyframes: [
+      {
+        duration: 14,
+        left: '100vw',
+        top: 600,
+      },
+    ],
+    ease: 'power1.out',
+  },
+  '<0.5',
+)
+
+scene4.fromTo(
   '#text-box2',
   {
     opacity: 0,
@@ -273,7 +311,7 @@ scene4.fromTo(
       },
     ],
   },
-  '<2',
+  '<1',
 )
 
 const scene5 = gsap.timeline({
@@ -803,12 +841,17 @@ scene9.fromTo(
   '#white-line1',
   {
     right: -2002,
+    opacity: 0,
   },
   {
     keyframes: [
       {
+        duration: 0.5,
+        opacity: 1,
+      },
+      {
         duration: 4,
-        right: 2000,
+        right: '100vw',
       },
     ],
     ease: 'power2.in',
@@ -820,12 +863,17 @@ scene9.fromTo(
   '#white-line2',
   {
     right: -2002,
+    opacity: 0,
   },
   {
     keyframes: [
       {
+        duration: 0.5,
+        opacity: 1,
+      },
+      {
         duration: 4,
-        right: 2000,
+        right: '100vw',
       },
     ],
     ease: 'power2.in',
@@ -837,12 +885,17 @@ scene9.fromTo(
   '#white-line3',
   {
     right: -2002,
+    opacity: 0,
   },
   {
     keyframes: [
       {
+        duration: 0.5,
+        opacity: 1,
+      },
+      {
         duration: 4,
-        right: 2000,
+        right: '100vw',
       },
     ],
     ease: 'power2.in',
@@ -854,12 +907,17 @@ scene9.fromTo(
   '#white-line4',
   {
     right: -2002,
+    opacity: 0,
   },
   {
     keyframes: [
       {
+        duration: 0.5,
+        opacity: 1,
+      },
+      {
         duration: 4,
-        right: 2000,
+        right: '100vw',
       },
     ],
     ease: 'power2.in',
@@ -871,12 +929,17 @@ scene9.fromTo(
   '#white-line5',
   {
     right: -2002,
+    opacity: 0,
   },
   {
     keyframes: [
       {
+        duration: 0.5,
+        opacity: 1,
+      },
+      {
         duration: 4,
-        right: 2000,
+        right: '100vw',
       },
     ],
     ease: 'power2.in',
@@ -888,12 +951,17 @@ scene9.fromTo(
   '#white-line6',
   {
     right: -2002,
+    opacity: 0,
   },
   {
     keyframes: [
       {
+        duration: 0.5,
+        opacity: 1,
+      },
+      {
         duration: 4,
-        right: 2000,
+        right: '100vw',
       },
     ],
     ease: 'power2.in',
@@ -905,12 +973,17 @@ scene9.fromTo(
   '#white-line7',
   {
     right: -2002,
+    opacity: 0,
   },
   {
     keyframes: [
       {
+        duration: 0.5,
+        opacity: 1,
+      },
+      {
         duration: 4,
-        right: 2000,
+        right: '100vw',
       },
     ],
     ease: 'power2.in',
@@ -922,12 +995,17 @@ scene9.fromTo(
   '#white-line8',
   {
     right: -2002,
+    opacity: 0,
   },
   {
     keyframes: [
       {
+        duration: 0.5,
+        opacity: 1,
+      },
+      {
         duration: 4,
-        right: 2000,
+        right: '100vw',
       },
     ],
     ease: 'power2.in',
@@ -939,12 +1017,17 @@ scene9.fromTo(
   '#white-line9',
   {
     right: -2002,
+    opacity: 0,
   },
   {
     keyframes: [
       {
+        duration: 0.5,
+        opacity: 1,
+      },
+      {
         duration: 4,
-        right: 2000,
+        right: '100vw',
       },
     ],
     ease: 'power2.in',
@@ -956,12 +1039,17 @@ scene9.fromTo(
   '#white-line10',
   {
     right: -2002,
+    opacity: 0,
   },
   {
     keyframes: [
       {
+        duration: 0.5,
+        opacity: 1,
+      },
+      {
         duration: 4,
-        right: 2000,
+        right: '100vw',
       },
     ],
     ease: 'power2.in',
@@ -973,12 +1061,17 @@ scene9.fromTo(
   '#white-line11',
   {
     right: -2002,
+    opacity: 0,
   },
   {
     keyframes: [
       {
+        duration: 0.5,
+        opacity: 1,
+      },
+      {
         duration: 4,
-        right: 2000,
+        right: '100vw',
       },
     ],
     ease: 'power2.in',
@@ -990,12 +1083,17 @@ scene9.fromTo(
   '#white-line12',
   {
     right: -2002,
+    opacity: 0,
   },
   {
     keyframes: [
       {
+        duration: 0.5,
+        opacity: 1,
+      },
+      {
         duration: 4,
-        right: 2000,
+        right: '100vw',
       },
     ],
     ease: 'power2.in',
@@ -1007,12 +1105,17 @@ scene9.fromTo(
   '#white-line13',
   {
     right: -2002,
+    opacity: 0,
   },
   {
     keyframes: [
       {
+        duration: 0.5,
+        opacity: 1,
+      },
+      {
         duration: 4,
-        right: 2000,
+        right: '100vw',
       },
     ],
     ease: 'power2.in',
@@ -1024,12 +1127,17 @@ scene9.fromTo(
   '#white-line14',
   {
     right: -2002,
+    opacity: 0,
   },
   {
     keyframes: [
       {
+        duration: 0.5,
+        opacity: 1,
+      },
+      {
         duration: 4,
-        right: 2000,
+        right: '100vw',
       },
     ],
     ease: 'power2.in',
@@ -1041,12 +1149,17 @@ scene9.fromTo(
   '#white-line15',
   {
     right: -2002,
+    opacity: 0,
   },
   {
     keyframes: [
       {
+        duration: 0.5,
+        opacity: 1,
+      },
+      {
         duration: 4,
-        right: 2000,
+        right: '100vw',
       },
     ],
     ease: 'power2.in',
@@ -1058,12 +1171,17 @@ scene9.fromTo(
   '#white-line16',
   {
     right: -2002,
+    opacity: 0,
   },
   {
     keyframes: [
       {
+        duration: 0.5,
+        opacity: 1,
+      },
+      {
         duration: 4,
-        right: 2000,
+        right: '100vw',
       },
     ],
     ease: 'power2.in',
@@ -1075,12 +1193,17 @@ scene9.fromTo(
   '#white-line17',
   {
     right: -2002,
+    opacity: 0,
   },
   {
     keyframes: [
       {
+        duration: 0.5,
+        opacity: 1,
+      },
+      {
         duration: 4,
-        right: 2000,
+        right: '100vw',
       },
     ],
     ease: 'power2.in',
@@ -1092,12 +1215,17 @@ scene9.fromTo(
   '#white-line18',
   {
     right: -2002,
+    opacity: 0,
   },
   {
     keyframes: [
       {
+        duration: 0.5,
+        opacity: 1,
+      },
+      {
         duration: 4,
-        right: 2000,
+        right: '100vw',
       },
     ],
     ease: 'power2.in',
@@ -1109,12 +1237,17 @@ scene9.fromTo(
   '#white-line19',
   {
     right: -2002,
+    opacity: 0,
   },
   {
     keyframes: [
       {
+        duration: 0.5,
+        opacity: 1,
+      },
+      {
         duration: 4,
-        right: 2000,
+        right: '100vw',
       },
     ],
     ease: 'power2.in',
@@ -1126,12 +1259,17 @@ scene9.fromTo(
   '#white-line20',
   {
     right: -2002,
+    opacity: 0,
   },
   {
     keyframes: [
       {
+        duration: 0.5,
+        opacity: 1,
+      },
+      {
         duration: 4,
-        right: 2000,
+        right: '100vw',
       },
     ],
     ease: 'power2.in',
@@ -1157,7 +1295,7 @@ scene10.fromTo(
   {
     keyframes: [
       {
-        duration: 2,
+        duration: 6,
         opacity: 1,
       },
     ],
@@ -1207,7 +1345,7 @@ scene11.fromTo(
   {
     keyframes: [
       {
-        duration: 2,
+        duration: 6,
         'background-image':
           'radial-gradient(50% 50% at 50% 50%, #18294A 0%, #88E2F7 100%)',
       },
@@ -1237,4 +1375,263 @@ scene11.fromTo(
     ],
   },
   '<2',
+)
+
+const scene12 = gsap.timeline({
+  scrollTrigger: {
+    trigger: '#gsap-trigger-12',
+    start: 'top center',
+    end: 'bottom center',
+    markers: false,
+    scrub: true,
+  },
+})
+
+scene12.to('#gradient-overlay', {
+  keyframes: [
+    {
+      duration: 6,
+      'background-image':
+        'radial-gradient(50% 50% at 50% 50%, #000000 0%, #1E3252 100%)',
+    },
+  ],
+})
+
+scene12.fromTo(
+  '#text-box10',
+  {
+    opacity: 0,
+  },
+  {
+    keyframes: [
+      {
+        duration: 2,
+        opacity: 1,
+      },
+      {
+        duration: 10,
+        opacity: 1,
+      },
+      {
+        duration: 2,
+        opacity: 0,
+      },
+    ],
+  },
+  '<2',
+)
+
+const scene13 = gsap.timeline({
+  scrollTrigger: {
+    trigger: '#gsap-trigger-13',
+    start: 'top center',
+    end: 'bottom center',
+    markers: false,
+    scrub: true,
+  },
+})
+
+scene13.to('#gradient-overlay', {
+  keyframes: [
+    {
+      duration: 6,
+      'background-image':
+        'radial-gradient(50% 50% at 50% 50%, #2F4A62 0%, #2F4A62 100%)',
+    },
+  ],
+})
+
+scene13.fromTo(
+  '#swarmy',
+  {
+    opacity: 0,
+    gap: '200px',
+  },
+  {
+    keyframes: [
+      {
+        duration: 6,
+        opacity: 1,
+        gap: '100px',
+      },
+      {
+        duration: 8,
+        opacity: 1,
+      },
+      {
+        duration: 2,
+        opacity: 0,
+      },
+    ],
+  },
+)
+
+scene13.fromTo(
+  '.swarmy-object',
+  {
+    width: 200,
+    height: 200,
+    rotation: 0,
+  },
+  {
+    keyframes: [
+      {
+        duration: 6,
+        width: 50,
+        height: 50,
+        rotation: 180,
+      },
+      {
+        duration: 6,
+        rotation: 360,
+      },
+    ],
+    ease: 'power2.in',
+  },
+  '<0',
+)
+
+scene13.fromTo(
+  '#text-box11',
+  {
+    opacity: 0,
+  },
+  {
+    keyframes: [
+      {
+        duration: 2,
+        opacity: 1,
+      },
+      {
+        duration: 10,
+        opacity: 1,
+      },
+      {
+        duration: 2,
+        opacity: 0,
+      },
+    ],
+  },
+  '<2',
+)
+
+const scene14 = gsap.timeline({
+  scrollTrigger: {
+    trigger: '#gsap-trigger-14',
+    start: 'top center',
+    end: 'bottom center',
+    markers: false,
+    scrub: true,
+  },
+})
+
+scene14.to('#gradient-overlay', {
+  keyframes: [
+    {
+      duration: 6,
+      'background-image':
+        'radial-gradient(50% 50% at 50% 50%, #2F4A62 0%, #2F4A62 100%)',
+    },
+  ],
+})
+
+scene14.fromTo(
+  '#text-box12',
+  {
+    opacity: 0,
+  },
+  {
+    keyframes: [
+      {
+        duration: 2,
+        opacity: 1,
+      },
+      {
+        duration: 10,
+        opacity: 1,
+      },
+      {
+        duration: 2,
+        opacity: 0,
+      },
+    ],
+  },
+  '<2',
+)
+
+const scene15 = gsap.timeline({
+  scrollTrigger: {
+    trigger: '#gsap-trigger-15',
+    start: 'top center',
+    end: 'bottom center',
+    markers: false,
+    scrub: true,
+  },
+})
+
+scene15.to('#gradient-overlay', {
+  keyframes: [
+    {
+      duration: 6,
+      'background-image':
+        'radial-gradient(50% 50% at 50% 50%, #6C8BA8 0%, #6C8BA8 100%)',
+    },
+  ],
+})
+
+scene15.fromTo(
+  '#text-box13',
+  {
+    opacity: 0,
+  },
+  {
+    keyframes: [
+      {
+        duration: 2,
+        opacity: 1,
+      },
+      {
+        duration: 10,
+        opacity: 1,
+      },
+      {
+        duration: 2,
+        opacity: 0,
+      },
+    ],
+  },
+  '<2',
+)
+
+const scene16 = gsap.timeline({
+  scrollTrigger: {
+    trigger: '#gsap-trigger-16',
+    start: 'top center',
+    end: 'bottom center',
+    markers: false,
+    scrub: true,
+  },
+})
+
+scene16.fromTo(
+  '#endroll',
+  {
+    opacity: 0,
+  },
+  {
+    keyframes: [
+      {
+        duration: 2,
+        opacity: 0,
+      },
+      {
+        duration: 2,
+        opacity: 1,
+      },
+      {
+        duration: 4,
+        opacity: 1,
+      },
+    ],
+  },
 )
